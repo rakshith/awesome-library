@@ -26,6 +26,11 @@
     "!**/__mocks__",
     "!**/.*"
   ],
+  "workspaces": {
+    "nohoist": [
+      "**"
+    ]
+  },
   "scripts": {
     "test": "jest",
     "typecheck": "tsc --noEmit",
